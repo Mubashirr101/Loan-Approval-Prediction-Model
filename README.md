@@ -5,7 +5,7 @@ This notebook aims to predict **loan approval status** based on various applican
 
 ---
 
-## Features 🛠️
+### Features 🛠️
 - **Data Cleaning and Preprocessing:** Handling missing values, encoding categorical variables, and feature scaling. 
 - **Exploratory Data Analysis (EDA):** Statistical summaries and visualizations for insights. 
 - **Model Building and Evaluation:** Training and testing multiple machine learning models. 
@@ -14,7 +14,7 @@ This notebook aims to predict **loan approval status** based on various applican
 
 ---
 
-## Dataset 📂
+### Dataset 📂
 The dataset used for this project includes features such as: 
 - **Applicant Income** - Income of the loan applicant.
 - **Coapplicant Income** - Income of co-applicant (if any).
@@ -25,7 +25,7 @@ The dataset used for this project includes features such as:
 
 ---
 
-## Models Used 🤖
+### Models Used 🤖
 1. **Logistic Regression** - Baseline linear classifier.
 2. **Decision Tree Classifier** - Achieved 97% accuracy.
 3. **Random Forest Classifier** - Improved ensemble method with 97% accuracy.
@@ -36,7 +36,7 @@ The dataset used for this project includes features such as:
 
 ---
 
-## Results 🏅
+### Results 🏅
 - The **XGBoost classifier** showed the highest individual accuracy (98%). 
 - An **ensemble approach** combining the strengths of Decision Tree, Random Forest, and XGBoost improved robustness. 
 - Evaluation metrics highlight the ensemble’s ability to handle misclassifications effectively. 
@@ -44,9 +44,7 @@ The dataset used for this project includes features such as:
 ---
 
 
-## Future Scope 🔭
+### Future Scope 🔭
 - **Hyperparameter Tuning:** Optimize parameters for better performance. 
 - **Additional Models:** Explore neural networks and deep learning approaches. 
-- **Deployment:** Convert the notebook into a web application using Flask or Streamlit. 
-
----
+- **Deployment:** Convert the notebook into a web application using Flask or Streamlit.
