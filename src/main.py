@@ -114,3 +114,7 @@ input_data = {
 if st.button("Predict"):
     result = predict(input_data)
     st.write("Prediction: ", "Approved" if result == 1 else "Not Approved")
+
+# Note:
+# Always outputs every prediction as 0 or False.
+# Maybe a case of overfitting & requires hyperparameter tuning
